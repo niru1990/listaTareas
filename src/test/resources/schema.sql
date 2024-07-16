@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS dbo;
+
+CREATE TABLE dbo.task(
+    id UUID PRIMARY KEY,
+    description VARCHAR(100) NOT NULL,
+    status VARCHAR(10) NOT NULL
+);
